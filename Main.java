@@ -22,6 +22,9 @@ public class Main {
         System.out.println("Informe a 4° nota do aluno: ");
         double nota4 = scanner.nextDouble();
 
+        // fechando o scanner
+        scanner.close();
+        
         // calcular a media
         double media = (nota1 + nota2 + nota3 + nota4) / 4;
 
